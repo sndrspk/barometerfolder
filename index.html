@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FFEFA1">
+<title>AI – Media Barometer | Arteveldehogeschool</title>
+<link rel="icon" type="image/png" href="assets/star.png">
+<style>
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: #141414;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+.poster {
+  position: relative;
+  overflow: hidden;
+  background: #FFEFA1;
+  aspect-ratio: 859 / 1208;
+  height: min(100vh, calc(100vw * 1208 / 859));
+  height: min(100dvh, calc(100vw * 1208 / 859));
+  max-width: 100vw;
+}
+.poster > img { position: absolute; height: auto; display: block; }
+.band { position: absolute; left: 0; top: 0; width: 100%; height: 17.6325%; background: #FFFFFF; }
+.logo { left: 28.2771%; top: 6.7053%; width: 43.4459%; }
+.star { left: 20.374%; top: 21.9053%; width: 19.1969%; }
+.heading { left: 42.8867%; top: 24.4168%; width: 36.8557%; }
+.card { position: absolute; left: 7.7998%; top: 41.0596%; width: 31.3155%; aspect-ratio: 1; background: #FFFFFF; }
+.card img { position: absolute; left: 3.7736%; top: 3.7736%; width: 92.4528%; height: 92.4528%; display: block; }
+.bodylink { position: absolute; left: 43.4226%; top: 42.798%; width: 45.8673%; }
+.bodylink img { width: 100%; height: auto; display: block; }
+.illus-left { left: -3.6088%; top: 73.0132%; width: 58.6729%; }
+.illus-right { left: 59.0221%; top: 73.0132%; width: 40.9779%; }
+a { color: inherit; text-decoration: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>
+</head>
+<body>
+<main class="poster">
+  <h1 class="sr-only">AI – Media Barometer – Arteveldehogeschool</h1>
+  <div class="band"></div>
+  <img class="logo" src="assets/logo.jpg" alt="Arteveldehogeschool">
+  <img class="star" src="assets/star.png" alt="">
+  <img class="heading" src="assets/heading.png" alt="AI – Media Barometer">
+  <a class="card" href="https://www.arteveldehogeschool.be/nl/onderzoek-en-samenwerking/onderzoek/communicatie-media-design/mensgericht-ontwerpen-met-ai/ai-media-barometer" target="_blank" rel="noopener" aria-label="QR-code: AI Media Barometer rapport downloaden">
+    <img src="assets/qr.png" alt="QR-code naar het AI Media Barometer-rapport">
+  </a>
+  <a class="bodylink" href="https://www.arteveldehogeschool.be/nl/onderzoek-en-samenwerking/onderzoek/communicatie-media-design/mensgericht-ontwerpen-met-ai/ai-media-barometer" target="_blank" rel="noopener">
+    <img src="assets/body.png" alt="Download ons rapport. Of boek ons voor een lezing of workshop.">
+  </a>
+  <img class="illus-left" src="assets/illustration-left.jpg" alt="">
+  <img class="illus-right" src="assets/illustration-right.jpg" alt="">
+</main>
+</body>
+</html>
